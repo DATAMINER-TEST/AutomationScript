@@ -35,8 +35,6 @@ jobs:
           solution-path: DataMiner SKYLINE.sln
           # The chosen name of the artifact. E.g. MyPackageName.  Required for stages: All, Upload and Deploy.
           artifact-name: empowershellword # optional
-          # The version number for the artifact. Only required for a release run. Format A.B.C for a stable release or A.B.C-text for a pre-release. Required for stages Upload and All if no build number was provided instead
-          # 
           # The build number of a workflow run. Only required for a development run. Required for stages Upload and All if no version was provided instead.
           build-number: ${{github.build_number}} # optional
           # Option to enable debug logging. Optional
